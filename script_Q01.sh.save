@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Informe nome de arquivo:(aperte enter)"
+archnome=$1echo "Informe nome de arquivo:(aperte enter)"
+read arqnome
+if  [ -f $arqnome ]
+ then
+   echo -e "Arquivo $arqnome existe!"
+ else
+   echo -e "Arquivo $arqnome inexistente!"
+fi
+
+if  [ -f $archnome ]
+ then
+   echo -e "Arquivo $1 existe!"
+ else
+   echo -e "Arquivo $1 inexistente!"
+fi
+
